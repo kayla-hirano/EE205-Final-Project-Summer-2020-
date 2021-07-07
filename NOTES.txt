@@ -1,0 +1,14 @@
+
+Kayla Hirano, EE205 Final Project
+
+I used an enum to determine what to draw to the window at a given point. 
+The default is set to menu, so the menu screen appears on startup.
+If the player presses the "Start Game" button the gamestate changes and
+starts the game. This means that my main function looks a little messy, 
+since all of my code is there. If I could improve this project, I would
+try to seperate this code into different files.
+
+I also was unable to change all my hpp files so that there are no #include. 
+If I had more time I would have tried fixing that as well.
+
+When the boss is defeated, it's printed in the terminal
